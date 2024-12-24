@@ -22,3 +22,8 @@ A. Heatmap of structure similarity score (LGA_S) values of candidate receptors s
 ## Brief Dataset & Project Description:
 
 A total of 456 receptors were modeled using google colab. Amino acid sequences for D. melanogaster were sourced from uniprot.org. Sequences for C. quinquefasciatus, A.aegypti, A. albopictus, and A. gambiae receptors were sourced from Vectorbase. T.ambionenisis sequences were acquired from the supplementary of its primary study. B.dorasalis and B. minax sequences were acquired using provided accession number from the NCBI database. Olfactory receptors for A. aegypti, A. albopictus, and C. quinquefasciatus were identified from Vectorbase by searching for all genes with an associated description of Interpro IPR004117 (Olfactory receptor, insect) or PFAM: PF02949(7tm Odorant receptor). The amino acid of each receptor was then used to generate Protein models using ColabFold v1.5.1 :Alphafold2 using MMseq2 online server. The best-ranked model made by ColabFold were selected for downstream clustering and comparison.
+
+<img width="598" alt="Screenshot 2024-12-24 at 2 30 25 AM" src="https://github.com/user-attachments/assets/ce29276f-ddff-41d9-afca-3f461d3c0262" />
+
+Fig. Structural Heatmap of pairwise comparison of 209,764 protein pairs. Heatmap plots computed structural similarity score (LGA_S) consisting of 209,764 protein pairs comparisons of orphan mosquito receptors and all dipteran deorphanized receptors. Hierarchical clustering analysis uses average link clustering with maximum distance. 
+
