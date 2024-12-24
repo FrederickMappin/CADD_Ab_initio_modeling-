@@ -13,3 +13,5 @@ ColabFold is a community implementation of a Colab for running AlphaFold2. It of
 
 A total of 456 receptors were modeled using google colab. Amino acid sequences for D. melanogaster were sourced from uniprot.org. Sequences for C. quinquefasciatus, A.aegypti, A. albopictus, and A. gambiae receptors were sourced from Vectorbase. T.ambionenisis sequences were acquired from the supplementary of its primary study. B.dorasalis and B. minax sequences were acquired using provided accession number from the NCBI database. Olfactory receptors for A. aegypti, A. albopictus, and C. quinquefasciatus were identified from Vectorbase by searching for all genes with an associated description of Interpro IPR004117 (Olfactory receptor, insect) or PFAM: PF02949(7tm Odorant receptor). The amino acid of each receptor was then used to generate Protein models using ColabFold v1.5.1 :Alphafold2 using MMseq2 online server. The best-ranked model was selected for downstream clustering and comparison.
 
+
+
